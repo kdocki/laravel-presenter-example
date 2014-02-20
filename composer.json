@@ -4,11 +4,14 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.1.*"
+		"laravel/framework": "4.1.*",
+ 		"robclancy/presenter": "1.1.*",
+ 		"way/generators": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
 			"app/commands",
+			"app/presenters",
 			"app/controllers",
 			"app/models",
 			"app/database/migrations",
